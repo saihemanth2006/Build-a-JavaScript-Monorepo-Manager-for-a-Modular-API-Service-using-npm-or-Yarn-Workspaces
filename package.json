@@ -1,0 +1,16 @@
+{
+  "name": "modular-api-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present",
+    "start": "npm run start --workspace=@modular-api/api-service"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "zod": "^3.24.1"
+  }
+}

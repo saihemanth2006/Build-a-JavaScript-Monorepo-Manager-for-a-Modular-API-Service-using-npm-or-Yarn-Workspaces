@@ -1,0 +1,11 @@
+{
+  "name": "@modular-api/shared-utils",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/logger.js",
+  "scripts": {
+    "build": "node ../../scripts/build-package.js packages/shared-utils",
+    "test": "node --test"
+  },
+  "dependencies": { "pino": "^9.6.0" }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@modular-api/data-models",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/user.js",
+  "scripts": {
+    "build": "node ../../scripts/build-package.js packages/data-models",
+    "test": "node --test"
+  },
+  "dependencies": { "zod": "^3.24.1" }
+}
